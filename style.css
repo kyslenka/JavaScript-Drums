@@ -1,0 +1,52 @@
+html {
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/22/00/14/universe-2250310_960_720.jpg);
+  background-size: cover;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  color: #fff;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.key {
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border: 0.3rem solid black;
+  border-radius: 0.5rem;
+  transition: all 0.7s ease;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  width: 7rem;
+  text-align: center;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #f0c119;
+  box-shadow: 0 0 1rem #f0c119;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #f0c119;
+}
