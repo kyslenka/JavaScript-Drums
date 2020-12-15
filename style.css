@@ -40,13 +40,13 @@ kbd {
 
 .playing {
   transform: scale(1.1);
-  border-color: #f0c119;
-  box-shadow: 0 0 1rem #f0c119;
+  border-color: #d6d5d2;
+  box-shadow: 0 0 1rem #d6d5d2;
 }
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #f0c119;
+  color: #d6d5d2;
 }
